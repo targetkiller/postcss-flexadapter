@@ -10,7 +10,7 @@
 display:flex;
 ```
 
-实用工具后（发布）：
+插件处理后（发布）：
 ```css
 display: -webkit-inline-box;
 display: -moz-inline-box;
@@ -18,7 +18,7 @@ display: -ms-inline-box;
 display: inline-box;
 ```
 
-同时，工具会自动去重，并且能够智能识别前缀，因此是否有前缀都能正常处理，例如：
+同时，工具会自动去重，并且能够智能去掉前缀处理，例如：
 
 ```css
 -webkit-display:flexbox;
@@ -26,7 +26,7 @@ display: inline-box;
 display:flex;
 ```
 
-这两个属性都是属于不同时期不同浏览器前缀的兼容，在插件处理后将会被当作同一个属性处理，因此结果只会生成一样的：
+这两个属性都是属于不同时期、不同浏览器前缀的兼容，在插件处理后将会被当作同一个属性处理，因此结果只会生成一样的：
 
 ```css
 display: -webkit-inline-box;
@@ -36,11 +36,11 @@ display: inline-box;
 ```
 
 ##QuickUse
-提供了[test.css](https://github.com/targetkiller/postcss-flexadapter/blob/master/test.css)作为测试文件。
+可以拿[test.css](https://github.com/targetkiller/postcss-flexadapter/blob/master/test.css)文件试试。
 
-提供了[Mac版绿色GUI客户端](http://pan.baidu.com/s/1o8Sswau)，即装即用不需要gulp命令行。
+提供了[Mac版绿色GUI客户端](http://pan.baidu.com/s/1o8Sswau)，基于Electron打包，即装即用不需要gulp命令行。
 
-提供了[PC版绿色GUI客户端](http://pan.baidu.com/s/1dEXemel)，即装即用不需要gulp命令行。
+提供了[PC版绿色GUI客户端](http://pan.baidu.com/s/1dEXemel)，同上。
 
 ##Install
 当然，你需要先安装[gulp](http://gulpjs.com/)和gulp-postcss。
@@ -77,3 +77,6 @@ gulp.task('default', function() {
 	    .pipe(gulp.dest('build/'));
 });
 ```
+
+##License
+MIT
