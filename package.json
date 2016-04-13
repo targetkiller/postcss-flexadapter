@@ -1,0 +1,60 @@
+{
+  "name": "postcss-flexadapter",
+  "version": "1.0.1",
+  "description": "PostCss插件，使用最新的flexbox属性，兼容所有旧版属性（侧重于兼容移动端各安卓机器的历史版本）",
+  "main": "index.js",
+  "repository": {
+    "type": "git",
+    "url": "git://github.com/targetkiller/postcss-flexadapter"
+  },
+  "scripts": {
+    "test": "mocha"
+  },
+  "files": [
+    "index.js"
+  ],
+  "author": {
+    "name": "TQ",
+    "email": "targetkillering@gmail.com",
+    "url": "http://tqtan.com"
+  },
+  "keywords": [
+    "gulpplugin",
+    "postcss",
+    "flex",
+    "flexbox",
+    "css",
+    "gulp"
+  ],
+  "engines": {
+    "node": ">=0.10.0"
+  },
+  "license": "MIT",
+  "dependencies": {
+    "gulp": "~3.3.4",
+    "postcss": "^5.0.0"
+  },
+  "devDependencies": {
+    "mocha": "*"
+  },
+  "bugs": {
+    "url": "https://github.com/targetkiller/postcss-flexadapter/issues"
+  },
+  "homepage": "https://github.com/targetkiller/postcss-flexadapter",
+  "_id": "postcss-flexadapter@1.0.1",
+  "dist": {
+
+  },
+  "_from": "postcss-flexadapter@",
+  "_npmVersion": "1.4.14",
+  "_npmUser": {
+    "name": "TQ",
+    "email": "targetkillering@gmail.com"
+  },
+  "maintainers": [
+    {
+      "name": "TQ",
+      "email": "targetkillering@gmail.com"
+    }
+  ]
+}
